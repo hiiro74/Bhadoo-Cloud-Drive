@@ -75,7 +75,7 @@ public class GoogleOauthController {
 	public void redirectForOauth2(HttpServletResponse response) throws URISyntaxException, IOException {
 		String redirectUrl = new URIBuilder(OAUTH_URL).addParameter("scope", SCOPE)
 				.addParameter("access_type", ACCESS_TYPE).addParameter("redirect_uri", REDIRECT_URI)
-				.addParameter("response_type", RESPONSE_TYPE).addParameter("client_id", CLIENT_ID).build().toString();
+				.addParameter("response_type", RESPONSE_TYPE).addParameter("client_id", CLIENT_ID).addParameter("prompt", "select_account").build().toString();
 		response.sendRedirect(redirectUrl);
 	}
 
