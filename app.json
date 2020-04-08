@@ -6,11 +6,11 @@
     "keywords": ["google","drive","cloud","cloud transfer","save to drive"],
     "env": {
         "client_id": {
-            "description": "Client ID from Google Console (https://tinyurl.com/ro5s68s)",
+            "description": "Client ID from Google Console (https://tinyurl.com/suew4nr)",
             "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com"
         },
         "client_secret": {
-            "description": "Client Secret from Google Console (https://tinyurl.com/ro5s68s)",
+            "description": "Client Secret from Google Console (https://tinyurl.com/suew4nr)",
             "value": "XXXXXXXXXXXXXXXXXXXXXXXX"
         },
         "redirect_uri": {
