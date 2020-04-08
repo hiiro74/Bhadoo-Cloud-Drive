@@ -1,21 +1,21 @@
 {
-    "name": "SaveToGoogleDrive - Bhadoo Cloud",
+    "name": "SaveToGoogleDrive",
     "description": "App to Upload files directly to Google Drive",
-    "repository": "https://github.com/ParveenBhadooOfficial/SaveToGoogleDrive",
-    "logo": "https://raw.githubusercontent.com/ParveenBhadooOfficial/SaveToGoogleDrive/master/src/main/resources/static/img/savetodrive.png",
-    "keywords": ["google","drive","bhadoo","bhadoo cloud"],
+    "repository": "https://raw.githubusercontent.com/hiiro74/url-to-cloud",
+    "logo": "https://raw.githubusercontent.com/hiiro74/url-to-cloud/master/src/main/resources/static/img/savetodrive.png",
+    "keywords": ["google","drive","cloud","cloud transfer","save to drive"],
     "env": {
         "client_id": {
-            "description": "Client ID from Google Console (http://bit.ly/37ED7dv)",
-            "value": "58094879805-jdsomen2duv9ilj81fcu1qkag5todele.apps.googleusercontent.com"
+            "description": "Client ID from Google Console (https://tinyurl.com/ro5s68s)",
+            "value": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX.apps.googleusercontent.com"
         },
         "client_secret": {
-            "description": "Client Secret from Google Console (http://bit.ly/37ED7dv)",
-            "value": "EG0OYdjcllAGJ81eEMpQ3vW6"
+            "description": "Client Secret from Google Console (https://tinyurl.com/ro5s68s)",
+            "value": "XXXXXXXXXXXXXXXXXXXXXXXX"
         },
         "redirect_uri": {
-            "description": "Your App URL eg. https://app.example.com/api/oauth/google/callback (Replace this with your own)",
-            "value": "https://bhadooclouduploader.herokuapp.com/api/oauth/google/callback"
+            "description": "Your App URL eg. https://appname.heroku.com/api/oauth/google/callback (Replace appname with your own)",
+            "value": "https://savetogoogledrive.herokuapp.com/api/oauth/google/callback"
         }
     }
 }
