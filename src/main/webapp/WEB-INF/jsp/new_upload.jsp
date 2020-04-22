@@ -11,12 +11,13 @@
 <%@taglib prefix="ui" tagdir="/WEB-INF/tags" %>
 
 <ui:templete>
-    <jsp:attribute name="head_area" />
-    <style>
-        .g-login2:hover {
-            content: url('${pageContext.request.contextPath}/img/btn_google_signin_dark_focus_web.png');
-        }
-    </style>
+    <jsp:attribute name="head_area">
+        <style>
+            .g-login2:hover {
+                content: url('${pageContext.request.contextPath}/img/btn_google_signin_dark_focus_web.png');
+            }
+        </style>
+    </jsp:attribute>
     <jsp:attribute name="body_area">
         <c:choose>
             <c:when test='${empty(user)}'>
