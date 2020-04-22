@@ -14,7 +14,7 @@
     <title>Save to Drive</title>
     <meta name="description" content="Upload Files using URL to Google Drive the easy way.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="google-site-verification" content="ReTB1LPGTaMBFG8EIW7EoAIXcr3QKu-RibNeVm7WkeM" />
+    <!-- <meta name="google-site-verification" content="ReTB1LPGTaMBFG8EIW7EoAIXcr3QKu-RibNeVm7WkeM" /> -->
     <meta name="robots" content="all,follow">
     <!-- Bootstrap CSS-->
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
