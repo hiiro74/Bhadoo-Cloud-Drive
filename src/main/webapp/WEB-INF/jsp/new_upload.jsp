@@ -12,6 +12,11 @@
 
 <ui:templete>
     <jsp:attribute name="head_area" />
+    <style>
+        .g-login2:hover {
+            content: url('${pageContext.request.contextPath}/img/btn_google_signin_dark_focus_web.png');
+        }
+    </style>
     <jsp:attribute name="body_area">
         <c:choose>
             <c:when test='${empty(user)}'>
@@ -20,7 +25,7 @@
                         <div class="row bg-white has-shadow">
                             <div class="col-xl-12" style="text-align:center">
                                 <p style="font-size: 20px; color: #ed3424">You need to Login First</p>
-                                <img src="https://developers.google.com/identity/images/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="location.href = '${pageContext.request.contextPath}/api/oauth/google/redirect'"><br><br><br>
+                                <img class="g-login2" src="${pageContext.request.contextPath}/img/btn_google_signin_dark_normal_web.png" title="Sign in with Google" onclick="location.href = '${pageContext.request.contextPath}/api/oauth/google/redirect'"><br><br><br>
                             </div>
                         </div>
                     </div>
