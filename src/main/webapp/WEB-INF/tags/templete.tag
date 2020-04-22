@@ -35,7 +35,7 @@
     <jsp:invoke fragment="head_area" />
     <style>
         .g-login:hover {
-            content: url('https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_dark_focus_web.png');
+            content: url('${pageContext.request.contextPath}/img/btn_google_signin_dark_focus_web.png');
         }
 
         .gbii {
@@ -79,7 +79,7 @@
                             <c:choose>
                                 <c:when test='${empty(user)}'>
                                     <li class="nav-item">
-                                        <img class="g-login" src="https://cdn.jsdelivr.net/gh/jscdn/images@1.0.3/logo/google/signin/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
+                                        <img class="g-login" src="${pageContext.request.contextPath}/img/btn_google_signin_light_normal_web.png" title="Sign in with Google" onclick="location.href = '/api/oauth/google/redirect'">
                                     </li>
                                 </c:when>
                                 <c:otherwise>
